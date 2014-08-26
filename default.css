@@ -1,0 +1,12 @@
+/*********************************************************************************/
+/* 設定列印區塊                                                                  */
+/*********************************************************************************/
+
+.JustPrint {display:none}
+.Nothing {display:none}
+
+@media print {    
+.JustPrint {display:block; font:9pt verdana; letter-spacing:5px; color: #000000}
+.NoPrint {display:none}
+.Nothing {display:none}
+}
